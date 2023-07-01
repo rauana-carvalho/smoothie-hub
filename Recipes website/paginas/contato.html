@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AnaDrinks - Contatos</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnaDrinks</title>
+    <link rel="stylesheet" href="../estilo/style-contato.css"><link>
+</head>
+<body>
+
+	<header>
+		<h1>Contatos</h1>
+		<a href="../index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/> <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/> </svg></a>
+	</header>
+
+	<div class="container">
+		<h2>Fale conosco</h2>
+		<form id="formcontatos" method="POST" action="#">
+
+			<section class="section1" role="region">
+				<label for="input_nome">Nome Completo</label>
+				<input id="input_nome" placeholder="Ana Santino da Silva" type="text" name="contato" required>
+				
+				<label for="input_email">E-mail</label>
+				<input id="input_email" placeholder="nomedeusuario@gmail.com" type="email" name="contato" required> 
+			</section>
+
+			<section class="section2" role="region">
+				<label for="input_telefone">Telefone para contato</label>
+				<input id="input_telefone" placeholder="+00 (00) 0000-0000" type="tel" name="contato" required>	
+				<label for="cidade">Cidade</label>
+				<select id="cidade" name="cidade">
+					<option disable="true" selected="true "> Selecione uma opção</option>
+					<option value="Boa Ventura">Boa Ventura</option>
+					<option value="Ibiara">Ibiara</option>
+					<option value="Igaracy">Igaracy</option>
+					<option value="Itaporanga">Itaporanga</option>
+					<option value="Nova Olinda">Nova Olinda</option>
+					<option value="Patos">Patos</option>
+					<option value="Pedra Branca">Pedra Branca</option>
+					<option value="Santana de Mangueira">Santana de Mangueira</option>
+					<option value="São José do Caiana">São José do Caiana</option>
+					<option value="Serra Grande">Serra Grande</option>
+					<option value="Outro(a)">Outro(a)</option>
+				</select>
+			</section>
+
+			<!-- <section class="mensagem-butao">
+				<label for="mensagem">Mensagem</label>
+				<textarea row="20" cols="20" name="caixademensagem" name="mensagem" id="mensagem" placeholder="Escreva sua mensagem aqui" required></textarea>
+				<button class="butao" type="submit" name="enviar" value="Enviar">Enviar</button>
+			</section> -->
+		</form>	
+		<label class="labelmessage" for="mensagem">Mensagem</label>
+		<textarea form="formcontatos" row="20" cols="20" name="contato" name="mensagem" id="mensagem" placeholder="Escreva sua mensagem aqui" required></textarea>
+		<div class="button-container">
+			<button form="formcontatos" class="butao" type="submit" name="enviar" >Enviar
+				<svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
+					<path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="black"></path>
+				</svg>
+			</button>
+		</div>
+	</div>
+		<footer>
+
+		</footer>
+	</div>
+</body>
+</html>

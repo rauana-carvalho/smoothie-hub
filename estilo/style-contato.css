@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'Dino Play';
+    src: url('../fonts/DinoPlay.ttf') format('ttf');
+    font-style: normal;
+    font-size: large;
+  }
+  
+  @font-face {
+    font-family: "lycheefarmland";
+    src: url('../fonts/LycheeFarmland2.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'kgprimaryenmanship';
+    src: url('../fonts/KGPrimaryPenmanship.woff') format('woff');
+    font-style: normal;
+    font-size: large;
+  }
+  
+  
+  @media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+  * {
+    font-family: "kgprimaryenmanship";
+    font-size: 25px;
+    color: #1b1b32;
+  }
+
+
+  body {
+    background-color: #f2eef6;
+    margin: 1% 0;
+    padding: 0;
+    justify-content: center;
+  }
+
+  h1, h2 {
+    font-family: "lycheefarmland";
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #1b1b32;
+    font-size: 40px;
+    letter-spacing: 2px;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  h1 {
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    padding-top: 3px;
+  }
+
+  h2 {
+    border-bottom: 3px solid #dfdfe2;
+    border-radius: 2px;
+    padding-top: 0;
+    
+  }
+
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  svg {
+    min-width: 20px;
+    min-height: auto;
+    width: auto;
+    height: auto;
+  }
+  
+
+  form {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  input ::placeholder {
+    text-align: center;
+    justify-content: center;
+  }
+
+  input, select, textarea, button {
+    min-width: 100%;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #f1f3f4;
+  }
+
+  textarea {
+    min-height: 100px;
+  }
+
+  button {
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 0 5px;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    min-width: 50px;
+  }
+  
+  button:hover {
+    background: #dfdfe2;
+  }
+  
+  button > svg {
+    width: 34px;
+    margin-left: 30px;
+    transition: transform .3s ease-in-out;
+  }
+  
+  button:hover svg {
+    transform: translateX(15px);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }  
+  
+  .button-container {
+      display:flex;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+  }
+
+.container {
+    background-color: #d4c9e2;
+    border-radius: 15pt;
+    margin: 0 15%;
+    margin-top: 0;
+    padding: 0 2% 2% 2%;
+    min-width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+
+  @media screen and (max-width: 768px) {
+  /* Styles for screens up to 768px wide */
+  .container {
+    margin: 5%;
+    padding: 0 5% 5% 5%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Styles for screens up to 480px wide */
+  .container {
+    margin: 2%;
+    padding: 0 10% 10% 10%;
+  }
+}
+
+  .container form {
+    gap: 16px;
+    margin-bottom: 20px;
+    
+
+}
+
+.labelmessage {
+margin-bottom: 16px;
+}
+
+

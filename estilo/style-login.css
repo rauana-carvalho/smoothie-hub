@@ -1,0 +1,134 @@
+    @font-face {
+    font-family: "lycheefarmland";
+    src: url('../fonts/LycheeFarmland2.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'kgprimaryenmanship';
+    src: url('../fonts/KGPrimaryPenmanship.woff') format('woff');
+    font-style: normal;
+    font-size: large;
+  }
+  
+  
+  @media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+  * {
+    font-family: "kgprimaryenmanship";
+    font-size: 25px;
+    color: #1b1b32;
+  }
+
+body {
+    background-color: #d4c9e2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    font-family: "lycheefarmland";
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #1b1b32;
+    font-size: 40px;
+    letter-spacing: 2px;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  svg {
+    min-width: 20px;
+    min-height: auto;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2px;
+  }
+
+  input ::placeholder {
+    text-align: center;
+    justify-content: center;
+  }
+
+  input {
+    min-width: 100%;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid #d4c9e2;
+    background-color: #e5deed;
+  }
+
+  input[type="submit"] {
+    cursor: pointer;
+    font-weight: 700;
+    font-family: "kgprimaryenmanship";
+    transition: all .2s;
+    padding: 0 5px;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    min-width: 50px;
+  }
+
+  
+  input[type="submit"]:hover {
+    background: #dfdfe2;
+  }
+  
+  input[type="submit"]:active {
+    transform: scale(0.95);
+  }  
+
+  form {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .senha img {
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    min-width: 20px;
+    min-height: auto;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+  }
+
+  .senha {
+    display: flex;
+  }
+
+  .container {
+    background-color: #f2eef6;
+    border-radius: 15pt;
+    margin: 5%;
+    padding: 2% 5%;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: static;
+  }

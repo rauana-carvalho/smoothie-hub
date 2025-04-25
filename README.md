@@ -4,7 +4,7 @@
 
 A simple and elegant site for exploring healthy and delicious smoothie recipes!
 
-### Linguagens e Tecnologias
+### Languages and Technologies
 
 <a href="https://github.com/romhenri/javascript" target="_blank" alt="JavaScript"><img align="center" alt="JavaScript" height="54" width="72" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"></a>
 <a href="https://github.com/romhenri/html" target="_blank"><img align="center" alt="HTML" height="54" width="72" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"></a>
